@@ -7,7 +7,7 @@ import "./AddTask.css";
 const AddTask = () => {
     const[inputData, setInputData] = useState('');
     const handleInputChange = (e) => {
-        
+
     setInputData(e.target.value)
     };
 
@@ -15,6 +15,7 @@ const AddTask = () => {
         <div className="add-task-container">
             <input 
             onChange={handleInputChange} 
+            value={inputData}
             className="add-task-input" 
             type="text"
             />
