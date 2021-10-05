@@ -1,7 +1,16 @@
 import React, { createFactory } from 'react';
 
+import Button from "./Button";
+
+import "./AddTask.css";
+
 const AddTask = () => {
-    return <input type="text"/>;
-}
+    return (
+        <div className="add-task-container">
+            <input className="add-task-input" type="text"/>;
+            <Button>Adicionar</Button>
+</div>
+    );
+};
  
 export default AddTask;
