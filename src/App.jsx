@@ -4,6 +4,7 @@ import {v4 as uuidv4} from "uuid";
 import Header from './components/Header';
 import AddTask from './components/AddTask';
 import Tasks from './components/Tasks';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 import './App.css';
 
@@ -52,6 +53,7 @@ const App = () => {
 
     
     return (
+    <Router>
     <div>
         <div className="container">
           <Header />
@@ -63,6 +65,7 @@ const App = () => {
                 />
         </div>
         </div>
+      </Router>
     );
   };
 
