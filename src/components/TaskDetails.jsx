@@ -1,10 +1,15 @@
 import React from 'react';
-import { useParams } from 'react-router';
+import { useParams, useHistory } from 'react-router-dom';
 
 import './TaskDetails.css';
 import Button from "./Button";
 const TaskDetails = () => {
     const params = useParams();
+    const history = useHistory();
+
+    const handleBackButtonClick  = () => {
+        history.goBack();
+    }
 
     console.log(params);
 
