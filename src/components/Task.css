@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-.buttons.container{
+.buttons-container{
     width: 30%;
     display: flex;
     justify-content: flex-end;
