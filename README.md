@@ -1,3 +1,5 @@
+Hello, in this example i used React  with functional components and Hook for make a simple To DO List
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
